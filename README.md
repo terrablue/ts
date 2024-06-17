@@ -22,10 +22,20 @@ Switching between themes works by adding an include directive to each program.
 
 ### alacritty
 
+Add to your alacritty TOML configuration.
+
 ```toml
 import = [
   "~/.config/themer/alacritty.toml",
 ]
+```
+
+### dircolors
+
+Add to your shell configuration
+
+```sh
+eval $(dircolors ~/.config/themer/dir_colors)
 ```
 
 ## license
