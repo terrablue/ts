@@ -1,1 +1,1 @@
-# themer -- [Nord theme](https://www.nordtheme.com)
+# themer -- [Catppuccin Mocha theme](https://catppuccin.com/)

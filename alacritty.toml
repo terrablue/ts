@@ -1,51 +1,75 @@
-[[colors.indexed_colors]]
-color = "0xdc9656"
-index = 16
-
-[[colors.indexed_colors]]
-color = "0xa16946"
-index = 17
-
-[[colors.indexed_colors]]
-color = "0x282828"
-index = 18
-
-[[colors.indexed_colors]]
-color = "0x383838"
-index = 19
-
-[[colors.indexed_colors]]
-color = "0xb8b8b8"
-index = 20
-
-[[colors.indexed_colors]]
-color = "0xe8e8e8"
-index = 21
-
-[colors.bright]
-black = "0x585858"
-blue = "0x7cafc2"
-cyan = "0x86c1b9"
-green = "0xa1b56c"
-magenta = "0xba8baf"
-red = "0xab4642"
-white = "0xf8f8f8"
-yellow = "0xf7ca88"
+[colors.primary]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+dim_foreground = "#7f849c"
+bright_foreground = "#cdd6f4"
 
 [colors.cursor]
-cursor = "0xd8d8d8"
-text = "0x181818"
+text = "#1e1e2e"
+cursor = "#f5e0dc"
+
+[colors.vi_mode_cursor]
+text = "#1e1e2e"
+cursor = "#b4befe"
+
+[colors.search.matches]
+foreground = "#1e1e2e"
+background = "#a6adc8"
+
+[colors.search.focused_match]
+foreground = "#1e1e2e"
+background = "#a6e3a1"
+
+[colors.footer_bar]
+foreground = "#1e1e2e"
+background = "#a6adc8"
+
+[colors.hints.start]
+foreground = "#1e1e2e"
+background = "#f9e2af"
+
+[colors.hints.end]
+foreground = "#1e1e2e"
+background = "#a6adc8"
+
+[colors.selection]
+text = "#1e1e2e"
+background = "#f5e0dc"
 
 [colors.normal]
-black = "0x181818"
-blue = "0x7cafc2"
-cyan = "0x86c1b9"
-green = "0xa1b56c"
-magenta = "0xba8baf"
-red = "0xab4642"
-white = "0xd8d8d8"
-yellow = "0xf7ca88"
+black = "#45475a"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+blue = "#89b4fa"
+magenta = "#f5c2e7"
+cyan = "#94e2d5"
+white = "#bac2de"
 
-[colors.primary]
-background = "0x181818"
-foreground = "0xd8d8d8"
+[colors.bright]
+black = "#585b70"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+blue = "#89b4fa"
+magenta = "#f5c2e7"
+cyan = "#94e2d5"
+white = "#a6adc8"
+
+[colors.dim]
+black = "#45475a"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+blue = "#89b4fa"
+magenta = "#f5c2e7"
+cyan = "#94e2d5"
+white = "#bac2de"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#fab387"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#f5e0dc"
