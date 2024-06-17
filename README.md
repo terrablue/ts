@@ -12,9 +12,10 @@ Check out the branch corresponding to the theme of your choice.
 
 ## themes
 
-|name (branch name)|website                  |repos                       |
-|------------------|-------------------------|----------------------------|
-|nord              |https://www.nordtheme.com|https://github.com/nordtheme|
+|name (branch)   |website                  |repos                        |
+|----------------|-------------------------|-----------------------------|
+|nord            |https://www.nordtheme.com|https://github.com/nordtheme |
+|catppuccin mocha|https://catppuccin.com   |https://github.com/catppuccin|
 
 ## configuration
 
