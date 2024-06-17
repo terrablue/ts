@@ -38,6 +38,20 @@ Add to your shell configuration
 eval $(dircolors ~/.config/themer/dir_colors)
 ```
 
+### neovim (nvchad)
+
+Add it to `~/config/nvim/lua/chadrc.lua`
+
+```lua
+local theme = dofile(os.getenv("HOME") .. "/.config/themer/nvchad.lua")
+
+return {
+  ui = {
+    theme = theme,
+  }
+}
+```
+
 ## license
 
 All original content is licensed MIT.
