@@ -1,4 +1,4 @@
-# ts -- modern theme switcher for *nix
+# ts – theme switcher for *nix
 
 ## installation
 
