@@ -1,14 +1,14 @@
-# themer -- modern theme switcher for *nix
+# ts -- modern theme switcher for *nix
 
 ## installation
 
-Clone this repository into `~/.config/themer`.
+Clone this repository into `~/.config/ts`.
 
-`git clone https://github.com/terrablue/themer ~/.config/themer`
+`git clone https://github.com/terrablue/ts ~/.config/ts`
 
 Check out the branch corresponding to the theme of your choice.
 
-`cd ~/.config/themer && git checkout nord`
+`cd ~/.config/ts && git checkout nord`
 
 ## themes
 
@@ -27,7 +27,7 @@ Add to your alacritty TOML configuration.
 
 ```toml
 import = [
-  "~/.config/themer/alacritty.toml",
+  "~/.config/ts/alacritty.toml",
 ]
 ```
 
@@ -36,7 +36,7 @@ import = [
 Add to your shell configuration
 
 ```sh
-eval $(dircolors ~/.config/themer/dir_colors)
+eval $(dircolors ~/.config/ts/dir_colors)
 ```
 
 ### neovim (nvchad)
@@ -44,7 +44,7 @@ eval $(dircolors ~/.config/themer/dir_colors)
 Add it to `~/config/nvim/lua/chadrc.lua`
 
 ```lua
-local theme = dofile(os.getenv("HOME") .. "/.config/themer/nvchad.lua")
+local theme = dofile(os.getenv("HOME") .. "/.config/ts/nvchad.lua")
 
 return {
   ui = {
